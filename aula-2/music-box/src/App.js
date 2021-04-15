@@ -1,10 +1,10 @@
-function App() {
-  return (
-        <p>
-          Olá mundo! Agora é nois no reactO! <br />
-          Level up
-        </p>
-  );
+import React from 'react'
+import Routes from './routes'
+
+function App(){
+    return(
+        <Routes />
+    )
 }
 
-export default App;
+export default App
